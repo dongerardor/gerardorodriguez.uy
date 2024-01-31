@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="294.371px" height="269.016px" viewBox="0 0 294.371 269.016" enable-background="new 0 0 294.371 269.016"
+	 xml:space="preserve">
+<rect x="-0.737" y="-0.834" fill="#032E3F" width="295.333" height="270"/>
+<rect x="36.679" y="237.832" fill="none" width="220.5" height="20.5"/>
+<text transform="matrix(1 0 0 1 36.6792 248.3823)" fill="#FFFFFF" font-family="'CuteFont-Regular'" font-size="23.4461">...and this is my personal site.</text>
+<g>
+	<g>
+		<defs>
+			<circle id="SVGID_1_" cx="146.93" cy="154.099" r="58.778"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<g transform="matrix(1 0 0 1 -3.194529e-006 -6.254808e-006)" clip-path="url(#SVGID_2_)">
+			
+				<image overflow="visible" width="400" height="400" xlink:href="../picture_gr.jpg"  transform="matrix(0.3122 0 0 0.3122 86.4712 97.687)">
+			</image>
+		</g>
+	</g>
+	<circle fill="none" stroke="#7FC8C3" stroke-width="5" stroke-miterlimit="10" cx="146.93" cy="154.099" r="58.778"/>
+</g>
+<path fill="#FFFFFF" d="M249.42,39.497H44.438c-4.093,0-7.411,3.318-7.411,7.411v21.537c0,4.093,3.318,7.411,7.411,7.411h155.918
+	c0.041,2.657-0.584,6.909-5.902,8.226c7.242,0.974,13.727-3.856,15.902-8.226h39.064c4.093,0,7.41-3.318,7.41-7.411V46.908
+	C256.831,42.815,253.513,39.497,249.42,39.497z"/>
+<text transform="matrix(1 0 0 1 52.2905 63.5313)"><tspan x="0" y="0" fill="#032E3F" font-family="'CuteFont-Regular'" font-size="23.4461">Hi! I&apos;m Gerardo Rodr</tspan><tspan x="138.822" y="0" fill="#032E3F" font-family="'MyriadPro-Regular'" font-size="23.4461">í</tspan><tspan x="144.309" y="0" fill="#032E3F" font-family="'CuteFont-Regular'" font-size="23.4461">guez...</tspan></text>
+</svg>

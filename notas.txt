@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Media Query</title>
+
+	<style>
+		/* Media Query for Mobile Devices */
+		@media (max-width: 480px) {
+			h1 {
+				color: red;
+			}
+		}
+
+		/* Media Query for low resolution Tablets, Ipads */
+		@media (min-width: 481px) and (max-width: 767px) {
+			h1 {
+				color: yellow;
+			}
+		}
+
+		/* Media Query for Tablets Ipads portrait mode */
+		@media (min-width: 768px) and (max-width: 1024px) {
+			h1 {
+				color: blue;
+			}
+		}
+
+		/* Media Query for Laptops and Desktops */
+		@media (min-width: 1025px) and (max-width: 1280px) {
+			h1 {
+				color: green;
+			}
+		}
+
+		/* Media Query for Large screens */
+		@media (min-width: 1281px) {
+			h1 {
+				color: rgb(66, 7, 161);
+			}
+		}
+	</style>
+</head>
+
+<body style="text-align:center;">
+	<h1>GeeksforGeeks</h1>
+	<h2>Media Query</h2>
+</body>
+
+</html>
+
+
+
+@media (max-width: 480px) {
+    section>div {
+        color: red;
+    }
+}

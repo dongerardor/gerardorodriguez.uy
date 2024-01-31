@@ -1,0 +1,216 @@
+:root {
+    --blue-deep: #012E40;
+    --green-dark: #025159;
+    --green-medium: #038C8C;
+    --green-light: #41ffec;
+    --orange: #F28705;
+    --grey-light: #eee;
+    --font-title: 'Cute Font', sans-serif;
+    --font-text: 'Merriweather', serif;
+    --font-highlight: 'Merriweather Sans', sans-serif;
+
+    background: var(--grey-light);
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-title);
+    font-weight: normal;
+    margin: 0;
+    padding: 0 1rem;
+    line-height: 2.5rem;
+}
+
+p {
+    font-family: var(--font-text);
+    margin: 0;
+    padding: 1rem;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+}
+
+li {
+    font-family: var(--font-text);
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    margin: 1rem;
+    color: var(--green-medium);
+}
+
+p a {
+    color: grey;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+blockquote {
+    font-family: var(--font-title);
+    font-size: 3rem;
+    line-height: 2rem;
+}
+
+section#section-1 {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--blue-deep);
+    color: white;
+}
+
+section#section-1 > div {
+    display: grid;
+}
+
+section#section-1 div#avatar-container {
+    margin: 5rem auto 0;
+
+}
+
+section#section-1 div h3 {
+    text-align: center;
+}
+
+section#section-1 div p {
+    margin-top: 3rem;
+}
+
+
+section#section-2 {
+    background-color: var(--green-light);
+    color: var(--blue-deep);
+    min-height: 30rem;
+}
+
+section#section-2 h3 {
+    padding-top: 3rem;
+}
+
+section#section-2 img {
+    margin: 0 auto;
+    padding: 2rem;
+    display: block;
+}
+
+section#section-3 div.link-examples {
+    font-family: var(--font-text);
+    margin: 0;
+    padding: 1rem 0;
+    background-color: var(--blue-deep);
+    color: var(--grey-light);
+}
+
+section#section-3 div.link-examples > h3 {
+    padding: 1rem;
+}
+
+section#section-3 div.link-examples > div {
+    display: flex;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+section#section-3 div.link-examples p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+    padding-top: 0;
+    padding-left: 2rem;
+}
+
+section#section-3 div.link-examples a {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 1rem 0 4rem;
+}
+
+
+section#section-4 {
+    
+}
+
+section#section-4 div#images {
+    padding: 1rem;
+}
+
+section#section-4 div#images img {
+    width: 100%;
+}
+
+section#section-4 div#about{
+    transition: all 2s ease;
+}
+
+section#section-4 div#about.hidden{
+    height: 4rem;
+    overflow: hidden;
+    opacity: .2;
+}
+
+section#section-4 button#btn-more {
+    position: relative;
+    margin: -1rem auto;
+    display: block;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: var(--blue-deep);
+    color: var(--grey-light);
+    margin-bottom: 2rem;
+}
+
+section#section-4 div#link-osindi {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#section-4 div#link-osindi h4 {
+    
+}
+
+section#section-4 div#link-osindi img {
+    filter: invert(48%);
+    width: 3rem;
+}
+
+footer {
+    height: 30rem;
+    background-color: var(--blue-deep);
+    color: white;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+footer div#footer-social {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+    align-items: center;
+}
+
+footer div#footer-social a img {
+    margin: 1rem;
+    width: 4rem;
+}
+
