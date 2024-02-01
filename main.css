@@ -76,7 +76,6 @@ section#section-1 > div {
 
 section#section-1 div#avatar-container {
     margin: 5rem auto 0;
-
 }
 
 section#section-1 div h3 {
@@ -136,11 +135,6 @@ section#section-3 div.link-examples a {
     padding: 1rem 0 4rem;
 }
 
-
-section#section-4 {
-    
-}
-
 section#section-4 div#images {
     padding: 1rem;
 }
@@ -179,10 +173,6 @@ section#section-4 div#link-osindi {
     align-items: center;
 }
 
-section#section-4 div#link-osindi h4 {
-    
-}
-
 section#section-4 div#link-osindi img {
     filter: invert(48%);
     width: 3rem;
@@ -214,3 +204,92 @@ footer div#footer-social a img {
     width: 4rem;
 }
 
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+    section#section-1 {
+        display: flex;
+        align-items: center;
+        height: 35rem;
+    }
+
+    section#section-1 p{
+        margin: 3rem;
+        text-align: center;
+        padding: 0 10rem
+    }
+
+    section#section-2 {
+        min-height: auto;
+    }
+
+    section#section-3 {
+        display: grid;
+        grid-template-areas:
+          "element1 element2"
+          "element3 element4";
+    }
+
+    section#section-3 div.link-examples#link-examples-1 { grid-area: element1; }
+    section#section-3 div.link-examples#link-examples-2 { grid-area: element2; }
+    section#section-3 div.link-examples#link-examples-3 { grid-area: element3; }
+    section#section-3 div.link-examples#link-examples-4 { grid-area: element4; }
+
+    section#section-3 div.link-examples > div > div {
+        display: flex;
+        flex-direction: revert;
+    }
+
+    section#section-4 div#images {
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    section#section-4 div#images img{
+        width: 45%;
+    }
+}
+
+@media (min-width: 1025px) {
+    div#container {
+        display: grid;
+        grid-template-areas:
+          "section1 section2"
+          "section3 section4";
+    }
+
+    div#container section#section-1 { grid-area: section1; }
+    div#container section#section-2 { grid-area: section2; }
+    div#container section#section-3 { grid-area: section3; }
+    div#container section#section-4 { grid-area: section4; }
+
+    section#section-1 {
+        height: auto;
+    }
+
+    section#section-3 {
+        display: grid;
+        grid-template-areas:
+          "element1 element2"
+          "element3 element4";
+    }
+
+    section#section-3 div.link-examples {
+        background-color: var(--green-medium);
+    }
+
+    section#section-3 div.link-examples#link-examples-1 { grid-area: element1; }
+    section#section-3 div.link-examples#link-examples-2 { grid-area: element2; }
+    section#section-3 div.link-examples#link-examples-3 { grid-area: element3; }
+    section#section-3 div.link-examples#link-examples-4 { grid-area: element4; }
+
+    section#section-4 div#images {
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    section#section-4 div#images img{
+        width: 45%;
+    }
+}
