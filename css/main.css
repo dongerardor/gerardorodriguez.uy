@@ -1,0 +1,90 @@
+:root {
+    --blue-deep: #012E40;
+    --green-dark: #025159;
+    --green-medium: #038C8C;
+    --green-light: #41ffec;
+    --orange: #F28705;
+    --grey-light: #eee;
+    --font-title: 'Cute Font', sans-serif;
+    --font-text: 'Merriweather', serif;
+    --font-highlight: 'Merriweather Sans', sans-serif;
+
+    background: var(--grey-light);
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-title);
+    font-weight: normal;
+    margin: 0;
+    padding: 0 1rem;
+    line-height: 2.5rem;
+}
+
+p {
+    font-family: var(--font-text);
+    margin: 0;
+    padding: 1rem;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+}
+
+li {
+    font-family: var(--font-text);
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    margin: 1rem;
+    color: var(--green-medium);
+}
+
+p a {
+    color: grey;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+blockquote {
+    font-family: var(--font-title);
+    font-size: 3rem;
+    line-height: 2rem;
+}
+
+
+footer {
+    height: 30rem;
+    background-color: var(--blue-deep);
+    color: white;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+footer div#footer-social {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+    align-items: center;
+}
+
+footer div#footer-social a img {
+    margin: 1rem;
+    width: 4rem;
+}

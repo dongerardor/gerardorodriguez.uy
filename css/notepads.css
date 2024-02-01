@@ -1,0 +1,39 @@
+section#sidebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--blue-deep);
+    color: white;
+}
+
+section#sidebar h3 {
+    text-align: center;
+}
+
+section#notepads img{
+    display: block;
+    margin: 0 auto;
+    height: 20rem;
+}
+
+@media (min-width: 768px) {
+    html, body {height: 100%}
+
+    div#container {
+        display: grid;
+        grid-template-columns: 30% 70%; /* Dos columnas, la izquierda ocupa el 30%, la derecha el 70% */
+        grid-template-areas: "sidebar notepads"; /* Asigna áreas específicas a cada columna */
+    }
+
+    section#sidebar {
+        height: 100%;
+        padding-top: 5rem;
+        justify-content: flex-start;
+    }
+
+    section#notepads {
+        padding: 10rem 2rem;
+    }
+}
